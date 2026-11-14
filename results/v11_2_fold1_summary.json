@@ -1,0 +1,74 @@
+{
+  "records": 387,
+  "physical_images": 236,
+  "inference": "V4 fold-0 one-model OOF, NOT a V4 three-model ensemble",
+  "method": "fixed input-only one-pixel image-guided morphological refinements; GT used only to score PQ",
+  "bootstrap_repeats": 1000,
+  "variants": {
+    "baseline": {
+      "tp": 1595,
+      "fp": 693,
+      "fn": 1109,
+      "sum_iou": 1087.1724208386422,
+      "pq": 0.43556587373343036,
+      "sq": 0.6816128030336315,
+      "rq": 0.6390224358974359,
+      "records": 387
+    },
+    "grow1": {
+      "tp": 1592,
+      "fp": 696,
+      "fn": 1112,
+      "sum_iou": 1084.2311439038021,
+      "pq": 0.4343874775255618,
+      "sq": 0.6810497135074134,
+      "rq": 0.6378205128205128,
+      "records": 387,
+      "delta_pq_vs_baseline": -0.0011783962078685817,
+      "cluster_bootstrap_delta_ci95": [
+        -0.0029434875089629857,
+        0.0006667025806085011
+      ],
+      "physical_images_improved": 89,
+      "physical_images_worse": 134,
+      "physical_images_equal": 13
+    },
+    "trim1": {
+      "tp": 1590,
+      "fp": 698,
+      "fn": 1114,
+      "sum_iou": 1090.5776158421463,
+      "pq": 0.43693013455214197,
+      "sq": 0.6858978715988342,
+      "rq": 0.6370192307692307,
+      "records": 387,
+      "delta_pq_vs_baseline": 0.0013642608187116045,
+      "cluster_bootstrap_delta_ci95": [
+        -0.0018491930799892989,
+        0.004372504944175492
+      ],
+      "physical_images_improved": 133,
+      "physical_images_worse": 89,
+      "physical_images_equal": 14
+    },
+    "grow_trim1": {
+      "tp": 1592,
+      "fp": 696,
+      "fn": 1112,
+      "sum_iou": 1089.450327310524,
+      "pq": 0.4364784965186394,
+      "sq": 0.684328095044299,
+      "rq": 0.6378205128205128,
+      "records": 387,
+      "delta_pq_vs_baseline": 0.0009126227852090385,
+      "cluster_bootstrap_delta_ci95": [
+        -0.001456211268850234,
+        0.003267511936596194
+      ],
+      "physical_images_improved": 137,
+      "physical_images_worse": 86,
+      "physical_images_equal": 13
+    }
+  },
+  "caveat": "This fold was used for checkpoint selection and is a development validation set. No Kaggle improvement is guaranteed."
+}

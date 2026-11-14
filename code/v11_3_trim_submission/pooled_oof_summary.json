@@ -1,0 +1,51 @@
+{
+  "description": "Pooled V11.2 single-model OOF, not 3-model ensemble",
+  "folds": [
+    {
+      "fold": 0,
+      "records": 365,
+      "physical_images": 236,
+      "baseline_pq": 0.41619408914502076,
+      "trim1_pq": 0.42169098306846114,
+      "delta_pq": 0.005496893923440382
+    },
+    {
+      "fold": 1,
+      "records": 387,
+      "physical_images": 236,
+      "baseline_pq": 0.43556587373343036,
+      "trim1_pq": 0.43693013455214197,
+      "delta_pq": 0.0013642608187116045
+    },
+    {
+      "fold": 2,
+      "records": 402,
+      "physical_images": 235,
+      "baseline_pq": 0.4252706633834027,
+      "trim1_pq": 0.4290923742747033,
+      "delta_pq": 0.0038217108913006226
+    }
+  ],
+  "baseline": {
+    "tp": 4812,
+    "fp": 2252,
+    "fn": 3387,
+    "sum_iou": 3248.8669228888793,
+    "pq": 0.4257180007716542,
+    "sq": 0.6751593771589525,
+    "rq": 0.6305444539081438
+  },
+  "trim1": {
+    "tp": 4829,
+    "fp": 2235,
+    "fn": 3370,
+    "sum_iou": 3276.0110885185604,
+    "pq": 0.42927485926994174,
+    "sq": 0.6784036215611018,
+    "rq": 0.632772063159274
+  },
+  "delta_pq": 0.0035568584982875184,
+  "records": 1154,
+  "physical_images": 707,
+  "caveat": "OOF folds each used for checkpoint selection; no three-model ensemble trim PQ or independent test has been measured."
+}

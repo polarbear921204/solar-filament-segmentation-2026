@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+kaggle.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Competition data (download separately)
+data/
+dataset/
+train/
+test/
+MAGFiLO_1.0_Kaggle_2026/
+
+# Model artifacts and generated runs
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+outputs/
+cache/
+*.log
+
+# Incomplete smoke-test files must never be submitted
+*smoke*INCOMPLETE*.csv
+v11_3_smoke_*

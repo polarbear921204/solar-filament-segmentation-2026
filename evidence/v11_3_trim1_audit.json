@@ -1,0 +1,19 @@
+{
+  "mode": "trim1",
+  "smoke_incomplete_not_submittable": false,
+  "input": "C:\\Users\\sam22\\Desktop\\Solar_Filament_V11_3_LB039_Team_Handoff\\reference\\submission_v4_ensemble_LB038.csv",
+  "output": "C:\\Users\\sam22\\Desktop\\Solar_Filament_V11_3_LB039_Team_Handoff\\submission_v11_3_trim1.csv",
+  "original_sha256": "e6f8b6053d5afe0c0d61374e47ed7abed92da186054819a46e3026ae943849f3",
+  "output_sha256": "141109a03855dd242439626d26f800881930f7fd72fe24cb4666c6ce53ef4874",
+  "images_with_predictions": 178,
+  "total_test_images": 180,
+  "images_without_predictions_in_original": 2,
+  "mask_rows_input": 1130,
+  "mask_rows_output": 1130,
+  "masks_changed": 1124,
+  "images_changed": 178,
+  "pixels_removed": 168390,
+  "pixels_before": 2677672,
+  "number_of_output_overlaps": 0,
+  "note": "Fixed V11.2 trim1 rule applied after V4 three-model ensemble; no GT, no YOLO. OOF single-model gains do not guarantee test gains."
+}
